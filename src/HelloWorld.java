@@ -6,6 +6,3 @@ public class HelloWorld {
         System.out.println("Hello World!");
     }
 }
-
-//      Урок 2: Переменные. Примитивные типы данных.
-
