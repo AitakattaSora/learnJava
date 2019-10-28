@@ -1,15 +1,15 @@
+//      Урок 5: Цикл for.
+
 public class ForLoop {
     public static void main(String[] args) {
-        byte i = 1;
-        for (; i > 0; i++) {
-            System.out.println(i);
+        /*
+        * В круглых скобках пишется условие цикла в 3 блока:
+            * 1 - объявление переменной и ее значния (обычно называют i)
+            * 2 - условие до которого цикл будет выполнятся
+            * 3 - действие, которое будет выполнятся каждую итерацию цикла
+        * */
+        for(int i = 10; i > 1; i--){ // i++/i-- == i=i+1/i=i-1
+            System.out.println("Hello");
         }
-
     }
 }
-
-
-// continue - to next interaction
-// else
-// break - stop the loop
-// fori - IDEA shortcut
