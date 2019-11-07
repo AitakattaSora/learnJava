@@ -1,6 +1,4 @@
-import java.sql.SQLOutput;
-
-//      Урок 15: Методы в Java.
+//      Урок 15 + 16: Методы и типы возвращаемых данных
 public class Methods {
     public static void main(String[] args){
         Perrson perrson1 = new Perrson();
@@ -8,13 +6,23 @@ public class Methods {
         perrson1.age = 22;
         Perrson perrson2 = new Perrson();
         perrson2.name = "MiyaGi";
-        perrson2.age = 27;
+        perrson2.age = 23;
 //        perrson1.sayHello();
 //        perrson2.speak();
         int year1 = perrson1.calcYearsToRetirement();
         int year2 = perrson2.calcYearsToRetirement();
-        System.out.println(year1);
-        System.out.println(year2);
+        System.out.println("Первому человеку " + year1 + " года до пенсии");
+        System.out.println("Второму человеку " + year2 + " года до пенсии");
+
+        System.out.println();
+        // Методы с параметрами:
+        Perrson persona = new Perrson();
+        persona.setName("Kanna");
+        persona.setAge(19);
+        persona.speak();
+        Perrson perisona = new Perrson();
+        perisona.setNameAndAge("Aoi", 25);
+        perisona.speak();
 
     }
 }
@@ -30,6 +38,7 @@ class Perrson {
             System.out.println("My name is " + name + ", I am " + age + " years old");
         }
     }
+
 
     /*
      * Синтаксис создания методов:
@@ -47,6 +56,21 @@ class Perrson {
 
     int calcYearsToRetirement(){
         int years = 65 - age;
-        return years;
+        return years; // обычно return идет последним и после него ничего больше не выполняется
+    }
+
+    // Методы с параметрами:
+
+    void setName(String personName){ // название переменной внутри метода может быть любым, т.к она видна только в теле этого метода
+        name = personName;
+    }
+
+    void setAge(int personAge){
+        age = personAge;
+    }
+
+    void setNameAndAge(String personName, int personAge){
+        name = personName;
+        age = personAge;
     }
 }
