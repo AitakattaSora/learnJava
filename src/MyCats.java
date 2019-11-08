@@ -9,7 +9,6 @@
  * 4 - все параметры
  */
 
-
 public class MyCats {
     public static void main(String[] args) {
         Cat cat1 = new Cat();
@@ -19,10 +18,12 @@ public class MyCats {
         Cat cat2 = new Cat("Fluffy");
         Cat cat3 = new Cat("Smokey", 1);
         Cat cat4 = new Cat("Kitty", 2, "white");
-        System.out.println(cat1.getName() + ", " + cat1.getAge() + ", " + cat1.getColor());
-        System.out.println(cat2.getName());
-        System.out.println(cat3.getName() + ", " + cat3.getAge());
-        System.out.println(cat4.getName() + ", " + cat4.getAge() + ", " + cat4.getColor());
+//        System.out.println(cat1.getName() + ", " + cat1.getAge() + ", " + cat1.getColor());
+//        System.out.println(cat2.getName());
+//        System.out.println(cat3.getName() + ", " + cat3.getAge());
+//        System.out.println(cat4.getName() + ", " + cat4.getAge() + ", " + cat4.getColor());
+        cat1.toString();
+        System.out.println(cat1);
     }
 }
 
@@ -31,8 +32,12 @@ class Cat{
     private int age;
     private String color;
 
-
-//  конструктор 1
+//  Переопределение дефолтного метода toString
+    @Override
+    public String toString (){
+            return "Name: " + name + ", Age: " + age + ", Color: " + color;
+        }
+        //  конструктор 1
     public Cat(){
 
     }
