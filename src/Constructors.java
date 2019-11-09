@@ -2,7 +2,8 @@ public class Constructors {
     public static void main(String[] args) {
         Game game1 = new Game();
         Game game2 = new Game("Bloodborne");
-        Game game3 = new Game("Dota", "pomoika dlya daunov", 2)
+        Game game3 = new Game("Dota", "pomoika dlya daunov", 2);
+        System.out.println(game1.getGenre());
 
 
     }
@@ -23,12 +24,16 @@ class Game {
     * параметры - это называется перегрузка методов.
     * Джава определяет какой метод вызывать на основе переданных объекту параметров
     *
+    * Идея конструктора в том, чтобы при создании объекта инициализировались поля
     */
 
 
 
     // Конструктор по-умолчанию/пустой конструктор (объект всегда строиться по нему, если конструктор не объявлен)
     public Game() {
+        this.name = "no name";
+        this.genre = "unknown";
+        this.score = 0;
         System.out.println("Привет из первого конструктора");
     }
 
