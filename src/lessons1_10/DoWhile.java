@@ -1,5 +1,7 @@
 //      Урок 8: Цикл do...while.
 
+package lessons1_10;
+
 import java.util.Scanner;
 
 public class DoWhile {

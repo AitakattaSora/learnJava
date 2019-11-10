@@ -1,5 +1,7 @@
 //      Урок 7: Ввод данных. Класс Scanner.
 
+package lessons1_10;
+
 import java.util.Scanner;
 
 public class Input {

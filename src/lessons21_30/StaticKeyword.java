@@ -1,6 +1,6 @@
 //      Урок 21: Ключевое слово static
 
-package lessonsAfter20;
+package lessons21_30;
 
 public class StaticKeyword {
     public static void main(String[] args) {

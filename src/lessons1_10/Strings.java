@@ -1,4 +1,7 @@
 //      Урок 3: Строки(String) в Java. Ссылочные типы данных.
+
+package lessons1_10;
+
 public class Strings {
     public static void main(String [] args){
         int x = 5;

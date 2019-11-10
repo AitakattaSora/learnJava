@@ -1,3 +1,7 @@
+//      Урок 20: Конструкторы
+
+package lessons11_20;
+
 public class Constructors {
     public static void main(String[] args) {
         Game game1 = new Game();

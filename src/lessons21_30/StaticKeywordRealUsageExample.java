@@ -1,4 +1,6 @@
-package lessonsAfter20;
+//      Продолжение урока 21: Ключевое слово static
+
+package lessons21_30;
 
 public class StaticKeywordRealUsageExample {
     public static void main(String[] args) {

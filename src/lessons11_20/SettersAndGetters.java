@@ -1,4 +1,7 @@
-//  Урок 18: Инкапсуляция, геттеры и сеттеры
+//      Урок 18: Инкапсуляция, геттеры и сеттеры
+
+package lessons11_20;
+
 public class SettersAndGetters {
     public static void main(String[] args){
 

@@ -1,5 +1,7 @@
 //      Урок 4: Цикл while.
 
+package lessons1_10;
+
 public class WhileLoops {
     public static void main(String[] args) {
         int i = 3;

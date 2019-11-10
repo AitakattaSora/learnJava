@@ -1,4 +1,6 @@
-// Урок 9: Операторы break и continue
+//      Урок 9: Операторы break и continue
+
+package lessons1_10;
 
 public class Break_Continue {
     public static void main(String[] args) {

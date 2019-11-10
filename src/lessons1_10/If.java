@@ -1,5 +1,7 @@
 //      Урок 6: Условный оператор if.
 
+package lessons1_10;
+
 public class If {
     public static void main(String[] args) {
         int myInt = 14;

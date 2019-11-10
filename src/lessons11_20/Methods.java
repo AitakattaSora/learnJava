@@ -1,4 +1,7 @@
 //      Урок 15 + 16: Методы и типы возвращаемых данных
+
+package lessons11_20;
+
 public class Methods {
     public static void main(String[] args){
         Perrson perrson1 = new Perrson();

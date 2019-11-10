@@ -1,5 +1,7 @@
 //      Урок 13: Многомерные массивы
 
+package lessons11_20;
+
 public class Multidemensional_Arrays {
     public static void main(String[] args) {
         int[] numbers = {1, 2, 3};

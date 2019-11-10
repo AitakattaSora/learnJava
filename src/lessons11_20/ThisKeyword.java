@@ -1,3 +1,7 @@
+//      Урок 19: Ключевое слово this
+
+package lessons11_20;
+
 public class ThisKeyword {
     public static void main(String[] args) {
         Human human1 = new Human();

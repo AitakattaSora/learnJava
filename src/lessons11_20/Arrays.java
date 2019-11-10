@@ -1,6 +1,6 @@
 //      Урок 11: Массивы в Java.
 
-import java.sql.SQLOutput;
+package lessons11_20;
 
 public class Arrays {
     public static void main(String[] args) {

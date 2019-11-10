@@ -1,4 +1,6 @@
-//      Урок 5: Цикл for.
+//      Урок 5: Цикл for
+
+package lessons1_10;
 
 public class ForLoop {
     public static void main(String[] args) {

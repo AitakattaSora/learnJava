@@ -1,5 +1,7 @@
 //      Урок 12: Цикл for each, Массивы строк.
 
+package lessons11_20;
+
 public class Array_of_Strings {
     public static void main(String[] args) {
         int[] numbers = new int[5];

@@ -1,11 +1,13 @@
 //      Урок 10: Оператор switch.
 
+package lessons1_10;
+
 import java.util.Scanner;
 
 public class Switch {
     public static void main(String[]args){
     /*
-     * Используется как If в случаях, когда есть много условий, которые нужно перебрать
+     * Используется как lessons1_10.If в случаях, когда есть много условий, которые нужно перебрать
      * Используется не часто
      * */
 

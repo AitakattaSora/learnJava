@@ -1,4 +1,7 @@
 //       Урок 2: Переменные. Примитивные типы данных
+
+package lessons1_10;
+
 public class Variables {
     public static void main(String [] args){
 
