@@ -5,6 +5,23 @@ import java.util.Scanner;
 public class Loops {
     public static void main(String[] args) {
 
+        //  Имеется целое число n>3, вывести все четные числа от 0 до n включительно.
+        System.out.println("Task 1:");
+
+//        int n;
+//        Scanner scan = new Scanner(System.in);
+//        System.out.println("Enter a number");
+//        n = scan.nextInt();
+        int n = 1;
+        while (n <= 3) {
+            if (n % 2 == 0) {
+                System.out.println(n + " - четная");
+            }
+            n++;
+        }
+
+/*
+
         //  Написать расчет факториала любого числа, используя цикл while.
         // 0! = 1...
         System.out.println("Task 2:");
@@ -22,6 +39,7 @@ public class Loops {
             }
             System.out.println(x);
         }
+*/
 
         // Звездочки
 /*
