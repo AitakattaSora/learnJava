@@ -1,4 +1,4 @@
-package lessons21_30.accessmodifiers.packet1;
+package lessons21_30.accessmodifiers28.packet1;
 
 
 import lessons21_30.Animal;

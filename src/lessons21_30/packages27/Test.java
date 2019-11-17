@@ -1,6 +1,8 @@
-package lessons21_30.packages;
+//      Урок 27: Пакеты
 
-import lessons21_30.packages.forest.*;
+package lessons21_30.packages27;
+
+import lessons21_30.packages27.forest.*;
 import java.util.Scanner;
 
 public class Test {

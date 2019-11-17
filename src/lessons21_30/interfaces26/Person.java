@@ -1,4 +1,4 @@
-package lessons21_30.interfaces;
+package lessons21_30.interfaces26;
 
 public class Person implements Info {
     public String name;

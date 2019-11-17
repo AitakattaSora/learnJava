@@ -1,6 +1,8 @@
-package lessons21_30.accessmodifiers;
+//      Урок 30: Модификаторы доступа
 
-import lessons21_30.accessmodifiers.packet1.Person;
+package lessons21_30.accessmodifiers28;
+
+import lessons21_30.accessmodifiers28.packet1.Person;
 
 public class Test {
     public static void main(String[] args) {

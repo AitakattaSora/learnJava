@@ -14,3 +14,4 @@
 - day 9: lessons 22-23 + if/loops tasks
 - day 10: lessons 24-27
 - day 11: lessons 28
+- day 12: lessons 29-33

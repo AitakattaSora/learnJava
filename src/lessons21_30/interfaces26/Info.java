@@ -1,4 +1,4 @@
-package lessons21_30.interfaces;
+package lessons21_30.interfaces26;
 
 public interface Info {
     // у методов интерфейса тела быть не может

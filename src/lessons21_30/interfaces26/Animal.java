@@ -1,4 +1,4 @@
-package lessons21_30.interfaces;
+package lessons21_30.interfaces26;
 
 public class Animal implements Info {
     public int id;
